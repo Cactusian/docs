@@ -1,94 +1,39 @@
 ---
-title: 'Development'
-description: 'Preview changes locally to update your docs'
+title: "Sign Up for an Account"
+description: "Welcome to Cactusian! Creating your own Cactusian account will create a more unified and seamless experience for you. Let's learn how to get started."
 ---
 
-<Info>
-  **Prerequisites**:
-  - Node.js version 19 or higher
-  - A docs repository with a `docs.json` file
-</Info>
-
-Follow these steps to install and run Mintlify on your operating system.
+<Note>
+  You must be at least 13 years old to sign up for an account. Please consult our [Terms of Service](https://cactusian.com/terms-of-service) and [Privacy Policy](https://cactusian.com/privacy-policy) before continuing.
+</Note>
 
 <Steps>
-<Step title="Install the Mintlify CLI">
-
-```bash
-npm i -g mint
-```
-</Step>
-
-<Step title="Preview locally">
-
-Navigate to your docs directory where your `docs.json` file is located, and run the following command:
-
-```bash
-mint dev
-```
-
-A local preview of your documentation will be available at `http://localhost:3000`.
-
-</Step>
+  <Step title="Visit the Sign Up page">
+    Head over to [cactusian.com/sign-up](https://cactusian.com/sign-up) and enter your real personal birthday. Read, acknowledge and agree with the Terms of Service and Privacy Policy.
+  </Step>
+  <Step title="Enter & Verify your Email">
+    After you proceed, enter your email address and continue. You will be asked to verify your email address by entering a 6-digit code that was sent to you. If you don't receive the code, check your spam folder and make sure you're on the correct email account, look for any misspellings you might've made to your email when you entered it and lastly try to resend it.
+  </Step>
+  <Step title="Pick a Username">
+    It's time to pick your Cactusian username. This is the most important detail of your account, it's what other people will use to find you and engage with you. You can change your username later, but with a 7-day cooldown to prevent abuse.
+  </Step>
+  <Step title="Customize your Profile">
+    Before you finish off, you have the option to quickly customize your profile, like changing your profile picture and name. When everything looks good you can continue. Your account will be created and you will automatically be logged in.
+  </Step>
 </Steps>
 
-## Custom ports
-
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. For example, to run Mintlify on port 3333, use this command:
-
-```bash
-mint dev --port 3333
-```
-
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
-
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
-
-## Mintlify versions
-
-Please note that each CLI release is associated with a specific version of Mintlify. If your local preview does not align with the production version, please update the CLI:
-
-```bash
-npm mint update
-```
-
-## Validating links
-
-The CLI can assist with validating links in your documentation. To identify any broken links, use the following command:
-
-```bash
-mint broken-links
-```
-
-## Deployment
-
-If the deployment is successful, you should see the following:
-
-<Frame>
-  <img src="/images/checks-passed.png" alt="Screenshot of a deployment confirmation message that says All checks have passed." style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Code formatting
-
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
-## Troubleshooting
+## Experiencing Issues?
 
 <AccordionGroup>
-  <Accordion title='Error: Could not load the "sharp" module using the darwin-arm64 runtime'>
-
-    This may be due to an outdated version of node. Try the following:
-    1. Remove the currently-installed version of the CLI: `npm remove -g mint`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall the CLI: `npm i -g mint`
+  <Accordion title="I don't receive verification email">
+    If you don't receive the code, check your spam folder and make sure you're on the correct email account, look for any misspellings you might've made to your email when you entered it and lastly try to resend it.
   </Accordion>
 
-  <Accordion title="Issue: Encountering an unknown error">
-  
-    Solution: Go to the root of your device and delete the `~/.mintlify` folder. Then run `mint dev` again.
+  <Accordion title="My preferred username is taken">
+    If your preferred username is taken we recommended choosing a similar or different one. Cactusian is unable to help you with this issue. Usernames are given based on a "first come, first served" system.
+  </Accordion>
+
+  <Accordion title="I am unable to complete the captcha">
+    If you are experiencing issues while trying to complete your captcha we recommend you try a different captcha (that you can get using the shown captcha controls) or try again later.
   </Accordion>
 </AccordionGroup>
-
-Curious about what changed in the latest CLI version? Check out the [CLI changelog](https://www.npmjs.com/package/mintlify?activeTab=versions).
