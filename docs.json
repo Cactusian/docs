@@ -11,18 +11,25 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Home",
+        "pages": [
+          "index"
+        ]
+      },
+      {
         "tab": "Account",
         "groups": [
           {
             "group": "Authentication",
             "pages": [
               "development",
-              "development-copied-1",
-              "index",
-              "quickstart"
+              "development-copied-1"
             ]
           }
         ]
+      },
+      {
+        "tab": "Games"
       },
       {
         "tab": "API reference",
