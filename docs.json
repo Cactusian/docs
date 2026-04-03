@@ -7,7 +7,7 @@
     "light": "#6616E9",
     "dark": "#8A37FF"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://scdn.cactusian.com/library/common/favicon.ico",
   "navigation": {
     "tabs": [
       {
