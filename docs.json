@@ -28,7 +28,7 @@
         "tab": "Account",
         "groups": [
           {
-            "group": "General Management",
+            "group": "Authentication",
             "pages": [
               "development",
               "development-copied-1",
