@@ -84,8 +84,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://scdn.cactusian.com/library/common/logoLongPurple.png?req=topbar8$9",
+    "dark": "https://scdn.cactusian.com/library/common/logoLongWhite.png?req=topbar8$9"
   },
   "navbar": {
     "links": [
