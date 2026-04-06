@@ -32,22 +32,13 @@
         "tab": "Games"
       },
       {
-        "tab": "API reference",
-        "hidden": true,
+        "tab": "Billing",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Policies",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "paid-services-terms",
+              "refund-policy"
             ]
           }
         ]
